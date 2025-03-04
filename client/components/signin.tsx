@@ -99,7 +99,7 @@ export default function SignInComponent() {
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)}
                                 className="block w-full pl-10 py-3 border border-input rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50"
-                                placeholder="Password must be 8 character"
+                                placeholder="Password must be 8  at least character"
                                 required
                             />
                         </div>
