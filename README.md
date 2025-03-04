@@ -89,7 +89,7 @@ This is a simple authentication system built using **Node.js**, **TypeScript**, 
 
 📝 **Note:** The first request may take longer as the server might be in sleep mode.  
 
-Here is simple frontend for testing of this server:  
+Here is a simple frontend for testing of this server:  
 
 🔗 **Frontend for Testing:** [https://authentication-system-gamma.vercel.app](https://authentication-system-gamma.vercel.app)  
 
