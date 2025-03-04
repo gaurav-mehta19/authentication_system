@@ -1,2 +1,2 @@
 
-export const BACKEND_URL = "https://auth-4473.onrender.com/api/v1"
+export const BACKEND_URL = "https://authentication-system-oeqx.onrender.com"
