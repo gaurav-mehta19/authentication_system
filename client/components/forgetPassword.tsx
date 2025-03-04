@@ -38,7 +38,7 @@ export default function ForgetPasswordComponent(){
             return;
           }
       
-          toast.success("Account created successfully");
+          toast.success("Reset Password successfully");
           router.push("/signin");
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         } catch (error: any) {
