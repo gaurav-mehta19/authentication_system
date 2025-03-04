@@ -23,7 +23,7 @@ This is a simple authentication system built using **Node.js**, **TypeScript**, 
 ```json
 {
   "email": "user@example.com",
-  "password": "yourpassword"
+  "password": "yourpassword (at least of length 8)"
 }
 ```
 
@@ -32,7 +32,6 @@ This is a simple authentication system built using **Node.js**, **TypeScript**, 
 ```json
 {
   "message": "User created successfully",
-  "token": "your-jwt-token"
 }
 ```
 
@@ -47,7 +46,7 @@ This is a simple authentication system built using **Node.js**, **TypeScript**, 
 ```json
 {
   "email": "user@example.com",
-  "password": "yourpassword"
+  "password": "yourpassword (at least of length 8)"
 }
 ```
 
@@ -55,8 +54,7 @@ This is a simple authentication system built using **Node.js**, **TypeScript**, 
 
 ```json
 {
-  "message": "Login successful",
-  "token": "your-jwt-token"
+  "message": "User signed in successfully",
 }
 ```
 
@@ -71,8 +69,7 @@ This is a simple authentication system built using **Node.js**, **TypeScript**, 
 ```json
 {
   "email": "user@example.com",
-  "oldPassword": "oldpassword",
-  "newPassword": "newpassword"
+  "newPassword": "newpassword (at least of lenght 8)"
 }
 ```
 
