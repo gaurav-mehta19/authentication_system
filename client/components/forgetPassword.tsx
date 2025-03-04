@@ -58,7 +58,7 @@ export default function ForgetPasswordComponent(){
           <div className="w-full max-w-md">
             <Link 
               href="/signin" 
-              className="inline-flex items-center text-sm text-primary hover:underline mb-8"
+              className="inline-flex items-center text-md text-primary hover:underline mb-8"
             >
               <ArrowLeft className="h-4 w-4 mr-2" />
               Back to sign in
